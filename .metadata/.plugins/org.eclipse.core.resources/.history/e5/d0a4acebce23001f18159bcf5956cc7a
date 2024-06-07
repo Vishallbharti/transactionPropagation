@@ -1,0 +1,7 @@
+package spring.hibernate.utility;
+
+public class AccountInfo {
+	
+	public static Map<String, Double> accountInfo = new HashMap<>();
+
+}

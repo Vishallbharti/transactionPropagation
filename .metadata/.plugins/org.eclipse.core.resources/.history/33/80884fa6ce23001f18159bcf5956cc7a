@@ -1,0 +1,5 @@
+package spring.hibernate.utility;
+
+public class AccountInfo {
+
+}

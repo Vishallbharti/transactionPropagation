@@ -1,0 +1,5 @@
+package spring.hibernate.controller;
+
+public class MovieTicketController {
+
+}

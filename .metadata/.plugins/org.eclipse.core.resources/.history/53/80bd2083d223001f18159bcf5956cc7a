@@ -1,0 +1,18 @@
+package spring.hibernate.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import spring.hibernate.repository.PaymentInfoRepository;
+import spring.hibernate.repository.TicketInfoRepository;
+
+@Service
+public class MovieTicketService {
+	
+	@Autowired
+	private TicketInfoRepository ticketInfoRepository;
+	
+	@Autowired 
+	private PaymentInfoRepository paymentInfoRepository;
+
+}

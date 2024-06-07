@@ -1,0 +1,5 @@
+package spring.hibernate.service;
+
+public class MovieTicketService {
+
+}

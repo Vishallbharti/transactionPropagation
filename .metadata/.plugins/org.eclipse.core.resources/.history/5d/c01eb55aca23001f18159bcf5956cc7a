@@ -1,0 +1,11 @@
+package spring.hibernate.dto;
+
+import spring.hibernate.entity.TicketInfo;
+import spring.hibernate.entity.paymentInfo;
+
+public class MovieTicketRequest {
+	
+	private TicketInfo ticketInfo;
+	
+
+}

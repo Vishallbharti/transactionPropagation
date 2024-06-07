@@ -1,0 +1,20 @@
+package spring.hibernate.entity;
+
+import org.hibernate.annotations.UuidGenerator;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "PAYMENT_INFO")
+public class paymentInfo {
+
+	@Id
+	@UuidGenerator
+	private String paymentId;
+	private String accountNo;
+	private double amount;
+	private String cardType;
+	private long ticketId;
+}

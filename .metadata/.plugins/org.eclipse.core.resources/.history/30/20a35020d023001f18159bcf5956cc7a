@@ -1,0 +1,5 @@
+package spring.hibernate.exception;
+
+public class InsufficientBalanceError {
+
+}

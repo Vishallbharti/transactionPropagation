@@ -1,0 +1,11 @@
+spring.application.name=hibernateProject
+
+
+
+#database connection
+spring.datasource.url=jdbc:mysql://localhost:3036/transaction_management
+spring.datasource.username=root
+spring.datasource.password=Vishal@21
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
